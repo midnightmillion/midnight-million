@@ -9,7 +9,7 @@ const Description = () => {
   const isInView = useInView(container)
 
   const phrase =
-		'Helping brands to stand out in the digital era. Together we will set the new status quo. No nonsense, always on the cutting edge.';
+		'Because the best piece of art in the world is your own body.';
   return (
 		<div
 			ref={container}
@@ -42,15 +42,14 @@ const Description = () => {
 					animate={isInView ? 'open' : 'closed'}
 					className='m-0 text-[18px] w-[80%] font-light'
 				>
-					The combination of my passion for design, code & interaction positions
-					me in a unique place in the web design world.
+					We sponsor digital creators, empowering them to turn extraordinary ideas into successful realities.
 				</motion.p>
 				<div data-scroll data-scroll-speed={0.1}>
-					<Magnetic>
+					{/* <Magnetic>
 						<div className='absolute top-[90%] md:top-[80%] left-[40%]  md:left-[calc(100%-250px)] bg-[#1C1D20] text-white w-[140px] h-[140px] md:w-[180px] md:h-[180px] rounded-[50%] flex items-center justify-center cursor-pointer hover:bg-[#455CE9] transition-colors duration-200 ease-out'>
 						<p className='m-0 text-[16px] font-light relative z-10'>About me</p>
 					</div>
-					</Magnetic>
+					</Magnetic> */}
 					
 				</div>
 			</div>

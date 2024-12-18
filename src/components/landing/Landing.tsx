@@ -45,13 +45,24 @@ const Landing = () => {
 
 	return (
 		<motion.main variants={slideUp} initial='initial' animate='enter' className='relative flex  h-screen overflow-hidden'>
-			<Image
+			{/* <Image
 				src='/images/background.jpg'
-				alt='dennis'
+				alt='midnight million'
 				priority={true}
 				fill={true}
 				className='object-cover'
-			/>
+			/> */}
+			<video 
+				src="/images/video.mp4" 
+				autoPlay 
+				loop 
+				muted 
+				playsInline 
+				className="object-cover w-full h-full"
+				>
+				Your browser does not support the video tag.
+				</video>
+
 
 			{/* slider */}
 			<div className='absolute top-[calc(100vh-300px)]'>
@@ -60,13 +71,13 @@ const Landing = () => {
 						ref={firstText}
 						className='m-0 text-white text-[200px] tracking-tight font-normal pr-[50px]'
 					>
-						Dennis Snellenberg -
+						Midnight Million -
 					</p>
 					<p
 						ref={secondText}
 						className='absolute top-0 left-[100%] m-0 text-white text-[200px] tracking-tight font-normal pr-[50px]'
 					>
-						Dennis Snellenberg -
+						Midnight Million -
 					</p>
 				</div>
 			</div>

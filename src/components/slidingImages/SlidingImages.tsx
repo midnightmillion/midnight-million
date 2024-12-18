@@ -5,38 +5,38 @@ import { useScroll, useTransform, motion } from 'framer-motion';
 const slider1 = [
 	{
 		color: '#e3e5e7',
-		src: 'c2.jpg',
+		src: 'web.jpg',
 	},
 	{
 		color: '#d6d7dc',
-		src: 'decimal.jpg',
+		src: 'web1.png',
 	},
 	{
 		color: '#e3e3e3',
-		src: 'funny.jpg',
+		src: 'web2.jpg',
 	},
 	{
 		color: '#21242b',
-		src: 'google.jpg',
+		src: 'web3.jpg',
 	},
 ];
 
 const slider2 = [
 	{
 		color: '#d4e3ec',
-		src: 'maven.jpg',
+		src: 'web4.jpg',
 	},
 	{
 		color: '#e5e0e1',
-		src: 'panda.jpg',
+		src: 'web5.jpg',
 	},
 	{
 		color: '#d7d4cf',
-		src: 'powell.jpg',
+		src: 'web6.jpeg',
 	},
 	{
 		color: '#e1dad6',
-		src: 'wix.jpg',
+		src: 'web7.webp',
 	},
 ];
 
@@ -54,7 +54,7 @@ const SlidingImages = () => {
   return (
 		<div
 			ref={container}
-			className='flex flex-col gap-[3vw] relative mt-[200px] bg-white z-[2]'
+			className='flex flex-col gap-[3vw] relative mt-[50px] sm:mt-[200px] bg-white z-[2]'
 		>
 			<motion.div
 				style={{ x: x1 }}
@@ -65,7 +65,7 @@ const SlidingImages = () => {
 					return (
 						<div
 							key={index}
-							className='w-[25%] h-[20vw] flex items-center justify-center'
+							className='w-[40%] h-[30vw] sm:w-[25%] sm:h-[20vw] flex items-center justify-center'
 							style={{ backgroundColor: color }}
 						>
 							<div className='relative w-[80%] h-[80%]'>
@@ -89,7 +89,7 @@ const SlidingImages = () => {
 					return (
 						<div
 							key={index}
-							className='w-[25%] h-[20vw] flex items-center justify-center'
+							className='w-[40%] h-[30vw] sm:w-[25%] sm:h-[20vw] flex items-center justify-center'
 							style={{ backgroundColor: color }}
 						>
 							<div className='relative w-[80%] h-[80%]'>
@@ -104,7 +104,7 @@ const SlidingImages = () => {
 					);
 				})}
 			</motion.div>
-			<motion.div style={{ height }} className='relative mt-[100px] z-[1]'>
+			<motion.div style={{ height }} className='relative mt-[50px] sm:mt-[100px] z-[1]'>
 				<div
 					className='absolute shadow-[0_60px_60px_-15px_rgba(0,0,0,0.748)] h-[1550%] w-[120%] left-[-10%] bg-white'
 					style={{ borderRadius: '0 0 50% 50%' }}

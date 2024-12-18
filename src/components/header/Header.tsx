@@ -7,6 +7,7 @@ import Link from 'next/link';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Magnetic from '../../common/magnetic/Magnetic.jsx';
+import Image from 'next/image';
 
 const Header = () => {
 	const [isActive, setIsActive] = useState(false);
@@ -55,18 +56,18 @@ const Header = () => {
 
 				<div className='flex relative overflow-hidden whitespace-nowrap ml-[5px] transition-all duration-500 ease-[cubic-bezier(0.76, 0, 0.24, 1)] group-hover:pr-[30px]'>
 					<p className='relative transiton-transform duration-500 ease-[cubic-bezier(0.76, 0, 0.24, 1)] group-hover:translate-x-[-100%]'>
-						Code by
+						Midnight Million
 					</p>
-					<p className='relative transiton-transform duration-500 ease-[cubic-bezier(0.76, 0, 0.24, 1)] pl-[0.3em] group-hover:translate-x-[-65px]'>
-						Dennis
+					{/* <p className='relative transiton-transform duration-500 ease-[cubic-bezier(0.76, 0, 0.24, 1)] pl-[0.3em] group-hover:translate-x-[-65px]'>
+
 					</p>
 					<p className='absolute left-[120px] pl-[0.3em] transiton-transform duration-500 ease-[cubic-bezier(0.76, 0, 0.24, 1)] group-hover:translate-x-[-65px]'>
-						Snellenberg
-					</p>
+
+					</p> */}
 				</div>
 			</div>
 
-			<div className='flex items-center'>
+			{/* <div className='flex items-center'>
 				<Magnetic>
 					<div className='flex flex-col relative z-10 p-[15px] cursor-pointer group'>
 						<Link href='/'>Work</Link>
@@ -87,10 +88,10 @@ const Header = () => {
 						<div className='absolute w-[5px] h-[5px] rounded-[50%] bg-white top-[80%] left-[50%] scale-0 translate-x-[-50%] group-hover:scale-100 group-hover:translate-x-0 transition-all duration-200 ease-[cubic-bezier(0.76, 0, 0.24, 1)] '></div>
 					</div>
 				</Magnetic>
-			</div>
+			</div> */}
 
 			{/* burger button */}
-			<div
+			{/* <div
 				ref={burger}
 				onClick={handleClick}
 				className={`fixed right-0 top-0 m-[20px] z-[9999] w-[40px] h-[40px] md:w-[60px] md:h-[60px] rounded-[50%] bg-[#1C1D20] ${
@@ -107,7 +108,7 @@ const Header = () => {
 						isActive ? 'rotate-[-45deg] bottom-[50.3%]' : ''
 					} transitiion-transform duration-300`}
 				></div>
-			</div>
+			</div> */}
 
 			<AnimatePresence mode='wait'>
 				{isActive && (

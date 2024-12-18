@@ -23,30 +23,30 @@ const Contact = () => {
 			<div className='pt-[200px] w-full max-w-[1800px] bg-[#141516]'>
 				<div className='relative pb-[100px] mx-[60px] md:mx-[200px] border-b border-[#868686]'>
 					<span className='flex items-center'>
-						<div className='relative w-[80px] h-[80px] rounded-[50%] overflow-hidden'>
+						<div className='relative w-[200px] h-[80px]  overflow-hidden'>
 							<Image
-								src='/images/background.jpg'
-								alt='dennis'
+								src='/images/MM.png'
+								alt='midnight million'
 								fill={true}
-								className='object-cover w-[80px] h-[80px]'
+								className='object-contain w-[100px] h-[80px]'
 							/>
 						</div>
 						<h2 className='ml-[0.3em] text-[5vw] font-medium'>
-							Let&apos;s work
+							100+ projects sponsored
 						</h2>
 					</span>
-					<h2 className='text-[5vw] font-medium'>together</h2>
+					{/* <h2 className='text-[5vw] font-medium'>together</h2> */}
 					<motion.div
 						style={{ x }}
 						className='absolute top-[calc(100%-75px)] left-[calc(100%-400px)]'
 					>
-						<Magnetic>
+						{/* <Magnetic>
 							<div className='w-[120px] h-[120px] md:w-[180px] md:h-[180px] rounded-[50%] bg-[#455CE9] hover:bg-[#3c50cc] transition-colors duration-200 ease-out text-white flex items-center justify-center cursor-pointer'>
 								<p className='m-0 text-[16px] font-thin z-[2] relative'>
 									Get in touch
 								</p>
 							</div>
-						</Magnetic>
+						</Magnetic> */}
 					</motion.div>
 					<motion.svg
 						style={{ rotate, scale: 2 }}
@@ -66,54 +66,56 @@ const Contact = () => {
 				<div className='flex flex-col md:flex-row gap-[20px] mt-[100px] mx-[60px] md:mx-[200px]'>
 					<Magnetic>
 						<div className='rounded-[3em] border border-[#888888] cursor-pointer relative flex items-center justify-center px-[60px] py-[15px] hover:bg-[#455CE9] hover:text-white transition-colors duration-200 ease-out'>
-							<p className=''>info@dennissnellenberg.com</p>
+							<p className=''>contact us</p>
 						</div>
 					</Magnetic>
 					<Magnetic>
 						<div className='rounded-[3em] border border-[#888888] cursor-pointer relative flex items-center justify-center px-[60px] py-[15px] hover:bg-[#455CE9] hover:text-white transition-colors duration-200 ease-out'>
-							<p className=''>+31 6 27 84 74 30</p>
+							<p className=''>join us</p>
 						</div>
 					</Magnetic>
 				</div>
 				<div className='mt-[200px] mx-[40px] md:mx-0 p-[20px] flex flex-col md:flex-row gap-[20px] justify-between'>
 					<div className='flex gap-[10px] items-end'>
 						<span className='flex flex-col gap-[15px]'>
-							<h3 className='m-0 p-[2.5px] font-thin text-[1em] text-gray-200'>
+							{/* <h3 className='m-0 p-[2.5px] font-thin text-[1em] text-gray-200'>
 								Version
-							</h3>
+							</h3> */}
 							<p className='m-0 p-[2.5px] cursor-pointer after:content-[""] after:w-[0%] after:h-[1px] after:bg-[white] after:block after:mt-[2px] after:relative after:left-2/4 after:-translate-x-1/2 after:transition-all after:duration-200 after:ease-linear hover:after:w-full'>
-								2022 © Edition
+								2025 © Edition
 							</p>
 						</span>
 						<span className='flex flex-col gap-[15px]'>
-							<h3 className='m-0 p-[2.5px] font-thin text-[1em] text-gray-200'>
+							{/* <h3 className='m-0 p-[2.5px] font-thin text-[1em] text-gray-200'>
 								Local Time
-							</h3>
+							</h3> */}
 							<p className='m-0 p-[2.5px] cursor-pointer after:content-[""] after:w-[0%] after:h-[1px] after:bg-[white] after:block after:mt-[2px] after:relative after:left-2/4 after:-translate-x-1/2 after:transition-all after:duration-200 after:ease-linear hover:after:w-full'>
-								11:49 PM GMT+2
+								18 U.S.C. § 2257 Statement
 							</p>
 						</span>
 					</div>
 					<div className='flex flex-col gap-[15px]'>
-						<span className=''>
+						{/* <span className=''>
 							<h3 className='m-0 p-[2.5px] font-thin text-[1em] text-gray-200'>
 								Socials
 							</h3>
-						</span>
-						<div className='flex items-center gap-[15px]'>
-							<Magnetic>
-								<p className=''>Awwwards</p>
-							</Magnetic>
-							<Magnetic>
-								<p className=''>Instagram</p>
-							</Magnetic>
-							<Magnetic>
-								<p className=''>Dribble</p>
-							</Magnetic>
-							<Magnetic>
-								<p className=''>Linkedin</p>
-							</Magnetic>
-						</div>
+						</span> */}
+						<div className="flex items-center gap-[15px]">
+							<p className="m-0 text-white p-[2.5px]">Sponsors</p>
+							<div className="flex gap-[10px]">
+								<img 
+								src="/images/1W.webp" 
+								alt="Sponsor 1" 
+								className="w-[50px] h-[50px] object-contain" 
+								/>
+								<img 
+								src="/images/of.png" 
+								alt="Sponsor 2" 
+								className="w-[50px] h-[50px] object-contain" 
+								/>
+							</div>
+							</div>
+
 					</div>
 				</div>
 			</div>
