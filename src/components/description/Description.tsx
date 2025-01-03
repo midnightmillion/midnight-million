@@ -42,7 +42,7 @@ const Description = () => {
 					animate={isInView ? 'open' : 'closed'}
 					className='m-0 text-[18px] w-[80%] font-light'
 				>
-					We sponsor digital creators, empowering them to turn extraordinary ideas into successful realities.
+					We sponsor digital creators, empowering them to turn fantasies ideas into successful realities.
 				</motion.p>
 				<div data-scroll data-scroll-speed={0.1}>
 					{/* <Magnetic>

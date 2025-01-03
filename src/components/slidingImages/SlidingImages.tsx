@@ -5,7 +5,7 @@ import { useScroll, useTransform, motion } from 'framer-motion';
 const slider1 = [
 	{
 		color: '#e3e5e7',
-		src: 'web.jpg',
+		src: 'web7.webp',
 	},
 	{
 		color: '#d6d7dc',
@@ -24,11 +24,11 @@ const slider1 = [
 const slider2 = [
 	{
 		color: '#d4e3ec',
-		src: 'web4.jpg',
+		src: 'web5.jpg',
 	},
 	{
 		color: '#e5e0e1',
-		src: 'web5.jpg',
+		src: 'web4.jpg',
 	},
 	{
 		color: '#d7d4cf',
@@ -36,7 +36,7 @@ const slider2 = [
 	},
 	{
 		color: '#e1dad6',
-		src: 'web7.webp',
+		src: 'web.jpg',
 	},
 ];
 
@@ -65,10 +65,10 @@ const SlidingImages = () => {
 					return (
 						<div
 							key={index}
-							className='w-[40%] h-[30vw] sm:w-[25%] sm:h-[20vw] flex items-center justify-center'
+							className='w-[40%] h-[30vw] sm:w-[25%] sm:h-[25vw] flex items-center justify-center'
 							style={{ backgroundColor: color }}
 						>
-							<div className='relative w-[80%] h-[80%]'>
+							<div className='relative w-[90%] h-[90%]'>
 								<Image
 									src={`/images/${src}`}
 									alt=''
@@ -89,10 +89,10 @@ const SlidingImages = () => {
 					return (
 						<div
 							key={index}
-							className='w-[40%] h-[30vw] sm:w-[25%] sm:h-[20vw] flex items-center justify-center'
+							className='w-[40%] h-[30vw] sm:w-[25%] sm:h-[25vw] flex items-center justify-center'
 							style={{ backgroundColor: color }}
 						>
-							<div className='relative w-[80%] h-[80%]'>
+							<div className='relative w-[90%] h-[90%]'>
 								<Image
 									src={`/images/${src}`}
 									alt=''
