@@ -101,18 +101,29 @@ const Contact = () => {
 							</h3>
 						</span> */}
 						<div className="flex items-center gap-[15px]">
-							<p className="m-0 text-white p-[2.5px]">Sponsors</p>
+							<p className="m-0 text-white p-[2.5px]">Partners</p>
 							<div className="flex gap-[10px]">
+							<a href="https://1win.com/" target="_blank" rel="noopener noreferrer">
 								<img 
-								src="/images/1W.webp" 
-								alt="Sponsor 1" 
-								className="w-[50px] h-[50px] object-contain" 
+									src="/images/1W.webp" 
+									alt="Sponsor 1" 
+									className="w-[50px] h-[50px] object-contain" 
 								/>
+							</a>
+							<a href="https://onlyfans.com/" target="_blank" rel="noopener noreferrer">
 								<img 
-								src="/images/of.png" 
-								alt="Sponsor 2" 
-								className="w-[50px] h-[50px] object-contain" 
+									src="/images/of.png" 
+									alt="Sponsor 1" 
+									className="w-[50px] h-[50px] object-contain" 
 								/>
+							</a>
+							{/* <a href="https://www.proofy.co/en/" target="_blank" rel="noopener noreferrer">
+								<img 
+									src="/images/p.png" 
+									alt="Sponsor 3" 
+									className="w-[50px] h-[50px] object-contain" 
+								/>
+							</a> */}
 							</div>
 							</div>
 
