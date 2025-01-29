@@ -32,7 +32,7 @@ const Contact = () => {
 							/>
 						</div>
 						<h2 className='ml-[0.3em] text-[5vw] font-medium'>
-							100+ projects sponsored
+							50+ projects sponsored
 						</h2>
 					</span>
 					{/* <h2 className='text-[5vw] font-medium'>together</h2> */}
