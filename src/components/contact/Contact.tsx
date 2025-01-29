@@ -66,12 +66,12 @@ const Contact = () => {
 				<div className='flex flex-col md:flex-row gap-[20px] mt-[100px] mx-[60px] md:mx-[200px]'>
 					<Magnetic>
 						<div className='rounded-[3em] border border-[#888888] cursor-pointer relative flex items-center justify-center px-[60px] py-[15px] hover:bg-[#455CE9] hover:text-white transition-colors duration-200 ease-out'>
-							<p className=''>contact us (coming soon)</p>
+							<p className=''>contact us (closed for inquiries)</p>
 						</div>
 					</Magnetic>
 					<Magnetic>
 						<div className='rounded-[3em] border border-[#888888] cursor-pointer relative flex items-center justify-center px-[60px] py-[15px] hover:bg-[#455CE9] hover:text-white transition-colors duration-200 ease-out'>
-							<p className=''>join us (coming soon)</p>
+							<p className=''>join waitlist (Coming Soon)</p>
 						</div>
 					</Magnetic>
 				</div>
@@ -82,7 +82,7 @@ const Contact = () => {
 								Version
 							</h3> */}
 							<p className='m-0 p-[2.5px] after:content-[""] after:w-[0%] after:h-[1px] after:bg-[white] after:block after:mt-[2px] after:relative after:left-2/4 after:-translate-x-1/2 after:transition-all after:duration-200 after:ease-linear '>
-								2025 © Edition
+								Dubai, UAE
 							</p>
 						</span>
 						<span className='flex flex-col gap-[15px]'>
@@ -90,7 +90,7 @@ const Contact = () => {
 								Local Time
 							</h3> */}
 							<p className='m-0 p-[2.5px] cursor-pointer after:content-[""] after:w-[0%] after:h-[1px] after:bg-[white] after:block after:mt-[2px] after:relative after:left-2/4 after:-translate-x-1/2 after:transition-all after:duration-200 after:ease-linear hover:after:w-full'>
-								We follow the 18 U.S.C. § 2257 Statement
+								| We follow the 18 U.S.C. § 2257 Statement |
 							</p>
 						</span>
 					</div>
@@ -125,9 +125,14 @@ const Contact = () => {
 								/>
 							</a> */}
 							</div>
-							</div>
+						</div>
 
 					</div>
+				</div>
+				<div className='mt-[0px] mx-[0px] md:mx-0 pb-[20px] pt-[0px] pl-[0px] flex flex-col gap-[1px]'>
+					<p className='text-center m-0 d'>
+						2025 © Edition
+					</p>
 				</div>
 			</div>
 		</motion.div>

@@ -32,7 +32,7 @@ const slider2 = [
 	},
 	{
 		color: '#d7d4cf',
-		src: 'web6.jpeg',
+		src: 'web6.jpg',
 	},
 	{
 		color: '#e1dad6',
